@@ -22,6 +22,7 @@ function Vehicle(brand, model, year, mileage) {
 
 // Рядковому представленю Vehicle призначаємо функцію яка повертає рядок:
 //<brand> <model> <year>
+//Vehicle.toString = function ()// так в відповіді
 Vehicle.prototype.toString = function () {
   return `${this.brand} ${this.model} ${this.year}`;
 };
